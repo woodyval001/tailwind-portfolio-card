@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind pratice</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-sky-950 text-white m-h-screen">
+    <header class="p-4 ">
+        <div class="flex justify-between items-center mb-8 p-4">
+            <h1 class="text-xl font-bold tracking-wider">WOODY VAL</h1>
+            <nav class="hidden md:flex space-x-6 gap-4 text-sm">
+                <a href="#" class="hover:text-sky-200">Home</a>
+                <a href="#" class="hover:text-sky-200">About</a>
+                <a href="#" class="hover:text-sky-200">Skills</a>
+                <a href="#" class="hover:text-sky-200">Contact</a>
+            </nav>
+
+            <nav class="md:hidden">
+                <button class="block md:hidden w-8 h-8"><img src="./src/img/burger.svg" alt="burger"></button>
+            </nav>
+        </div>
+
+        <section class="max-w-6xl max-auto overflow-hidden p-6 md:p-20 gap-8 flex flex-col md:flex-row-reverse md:items-center md:gap-20 md:justify-center">
+            <div class="w-full md:w-1/2 bg-sky-00 rounded-3xl overflow-hidden p-4 flex justify-center">
+                <img src="./src/img/IMG-20261028-WA0022.jpg" alt="myImg" class="rounded-xl w-full max-w-xs object-cover h-72"> 
+            </div>
+
+
+            <div class="space-y-4 ">
+                <h2 class="text-3xl font-extrabold leading-tight">Hello, I'm <br> <span class="text-cyan-400">WOODY VAL</span></h2>
+                <p class="text-sky-200 text-sm leading-relaxed">I'm a passionate and hardworking  learner <br> who loves technology, design and building <br> cool things. I'm always eager to improve <br> and explore new opportunities.</p>
+
+                <button class="bg-cyan-400 hover:bg-cyan-500 text-slate-950 font-semibold px-8 py-2.5 sm:w-auto rounded-full shadow-md transition w-full">Contact Me</button>
+            </div>
+
+        </section>
+
+    
+    </header>
+
+    <header class="relative min-h-[85vh] overflow-hidden bg-[#071a3b] text-white">
+        <!-- decorative bluewave -->
+
+        <div class="pointer-events-none absolute bottom-0 left-0 z-0 h-[50px] w-[120px] overflow-hidden md:h-[65px] md:w-[170px]">
+
+            <svg viewBox="0 0 300 100"
+                class="h-full w-full"
+                preserveAspectRatio="none"
+                xmlns="http://www.w3.org/2000/svg">
+            
+            
+
+             <path
+                d="M0 0 C60 10, 65 65, 150 85 Q220 98, 300 100 L0 100 Z"
+                fill="#087cf0">
+             </path>
+
+            </svg>
+
+            
+        </div>
+
+    </header>
+
+</body>
+</html>
